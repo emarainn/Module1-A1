@@ -8,12 +8,23 @@ public class Main {
     private final static FileInput inFile = new FileInput("animals.txt");
 
     public static void main(String[] args) {
+
+        //I added This
+        CreateAnimal.CreateAnimal();
+
+
         ArrayList<Talkable> zoo = new ArrayList<>();
 
+
+        /*
+        Instantiate an object of your user input-gathering class
+        Use that object to add an object to the list
+         */
+
         // Lines to Replace Begin Here
-        zoo.add(new Dog(true, "Bean"));
-        zoo.add(new Cat(9, "Charlie"));
-        zoo.add(new Teacher(44, "Stacy Read"));
+        //zoo.add(new Dog(true, "Bean"));
+        //zoo.add(new Cat(9, "Charlie"));
+        //zoo.add(new Teacher(44, "Stacy Read"));
         // End Lines to Replace
 
         for (Talkable thing : zoo) {
